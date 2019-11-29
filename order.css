@@ -1,0 +1,162 @@
+ *{margin: 0;padding: 0}
+.order1{background-color:rgb(36,36,36);
+   display: flex; justify-content: space-between;
+   color:aliceblue;padding: 5px 0
+}
+.e{display: none}
+.order1 ul{list-style: none;display: flex;margin-left: 200px;}
+.order1 ul li+li::before{content: "|"; margin:0 10px;}
+.order1 a{text-decoration: none;color:aliceblue}
+.order1  div{margin:auto 200px}
+.order1 img{position: relative;top:3px}
+.order2{margin: 20px 200px}
+.order2>div{display: flex;justify-content: space-between;align-items: center}
+.order2>div>ul{display: flex;
+   border: 1px solid rgb(228,227,224);height: 50px;
+   margin-left: 80px;background-color: rgb(246,246,246)}
+
+.order2 li{width: 160px;text-align: center;padding-top: 20px;
+ font: 13px 宋体;    font-weight: bold;list-style: none;position: relative;padding-left: 20px;
+
+}
+.order2 div ul li+li::before{content: "";
+   border: solid transparent 25px;border-left-color:  rgb(228,227,224); 
+   border-left-width: 10px;position: absolute;left:0;top:0px; margin-right: 25px}
+.order2 div ul li+li::after{content: "";border: solid 25px transparent;border-left-color:  rgb(246,246,246); 
+   border-left-width: 10px;position: absolute;left:0;top:0px; margin-right: 25px;margin-left: -1px}
+   .order2 div ul .cd::after{border-left-color: black} 
+   .order2 div ul .ab {background-color: black;color: blanchedalmond}
+   .order3{margin:0 200px;margin-top: 45px;display: none}
+   .order3 div p{font: 24px 宋体;margin:15px 0}
+   .order3 .h{font: 18px 宋体 ;font-weight: bolder;padding-left: 25px }
+   .order3 .h::before{content: "";position: absolute;
+      width: 12px;height: 20px;
+      background-image:linear-gradient(to bottom, rgb(150 150 150) 0%,rgb(180 180 180) 100%); ;
+      left: 200px;}
+   .order3 div:nth-child(2){margin-top:35px;}
+   .order3 .input{border: 1px solid rgb(228,227,224) ;width: 250px; height: 60px;
+     padding-left: 20px;padding-top: 20px;box-sizing: border-box;
+     margin-bottom: 80px;
+   }
+   .order3 span input{width: 230px;height: 30px; border: solid 1px rgb(228,227,224)}
+ .order3 .kk{font: 14px 宋体;margin-top:10px;}
+ .order3> div:last-child{margin-top: 50px;display: flex;justify-content: space-between}
+ .order3> div:last-child button:first-child{padding: 10px 40px ;
+   height: 40px;font-size: 15px;background-color: transparent;
+ border: 1px solid ;font-weight: bolder;
+}
+ .order3> div:last-child button:last-child{width: 255px;height: 50px;
+  background-color: #ED342F;border: solid #ED342F;color: aliceblue;
+  font-size: 17px;box-shadow: 1px 1px 1px  #ED342F
+}
+.order3> div:last-child button:last-child:hover{
+   background-color:transparent;color: #ED342F
+}
+.order3> div:last-child button:first-child:hover{
+   background-color: black;color: aliceblue;
+   border-color: black;box-shadow: 1px 1px 1px gray
+}
+.order4{background-color: rgb(36 36 36 ) ;
+   color: aliceblue;font-size: 12px;
+ text-align: center;margin-top: 50px;height: 50px;
+ padding-top: 25px;
+}
+.order3a{margin:0  200px;display: none}
+.order3a>div:nth-child(1){padding: 30px 0;border-bottom: 1px solid gray;}
+.order3a div:nth-child(1) span{font-size:20px;color:rgb(50 50 50)}
+.order3a table{width: 100%;margin-top: 20px;
+border-collapse: collapse; border-bottom: 1px solid rgb(228,227,224)}
+.order3a table thead {background-color: rgb(246,246,246);}
+.order3a table thead tr th{line-height: 2.5;text-align: center;}
+.order3a table thead tr{border: 1px solid rgb(228,227,224)}
+.order3a tbody tr td{padding: 10px 0;}
+.order3a table tbody tr td:nth-child(1){width: 40%}
+.order3a table tbody img{width: 70px;height: 70px;}
+.order3a table tbody tr td:not(:nth-child(1)){text-align: center}
+.order3a table tbody span{position: relative;left: 15px;top:-25px}
+.order3a .sh{margin-top:30px;border-bottom: 0 transparent
+} 
+.order3a .dl{background-color: rgb(246,246,246);width: 100%;
+  
+}
+.order3a .dl>p{font-size:20px;
+  padding: 20px 20px;width: 100%;
+ } 
+ .order3a .dl>div{display: flex;flex-wrap: wrap}
+ .order3a .dl dl{display: flex;margin-left: 20px;
+  border-top: 1px solid rgb(228,227,224);width: 45%;
+padding-bottom: 10px;
+}
+ dt{width: 30%;padding: 5px 0}
+ dd{width: 70%;padding: 5px 0}
+ dt::after{content: ":";margin-left:20px;}
+ .order3a .sh{display: flex}
+ .order3a .sh table{width: 58%;margin-left: 250px;font-size:17px;font-weight: bolder }
+ .order3a .sh table tr:last-child td{padding-left: 220px;}
+ .order3a> div:last-child{margin-top: 50px;display: flex;justify-content: space-between}
+ .order3a> div:last-child button:first-child{padding: 10px 40px ;
+   height: 40px;font-size: 15px;background-color: transparent;
+ border: 1px solid ;font-weight: bolder;
+}
+ .order3a> div:last-child button:last-child{width: 255px;height: 50px;
+  background-color: #ED342F;border: solid #ED342F;color: aliceblue;
+  font-size: 17px;
+}
+.order3a> div:last-child button:last-child:hover{
+   background-color:transparent;color: #ED342F;cursor: pointer;
+}
+.order3a> div:last-child button:first-child:hover{
+   background-color: black;color: aliceblue;
+   border-color: black;box-shadow: 1px 1px 1px gray;cursor: pointer;
+}
+.order3b{margin:40px  200px;display: none}
+.order3b div:first-child{border-bottom: 1px solid rgb(228,227,224);
+  font-size: 20px;font-weight:lighter; color:rgb(50 50 50);padding: 30px 0;
+  margin: 50px 0;
+}
+
+.order3b div:nth-child(2){padding: 20px 0;margin: 50px 0}
+.order3b div:nth-child(3){display: flex;margin: 50px 0}
+.order3b div:nth-child(3) span{border: 1px solid rgb(228,227,224);display: flex;
+  width: 20%;align-items: center;padding: 10px 0;margin: 50px 0;
+  margin-right: 30px;justify-content: space-around;background-color: rgb(246,246,246)
+}
+.order3b> div:last-child{margin: 50px 0;}
+.order3b> div:last-child button{width: 255px;height: 50px;
+   background-color: #ED342F;border: solid #ED342F;color: aliceblue;
+   font-size: 17px;
+ }
+ .order3b> div:last-child button:hover{
+    background-color:transparent;color: #ED342F;cursor: pointer;
+ }
+ .order3c{margin: 0 200px;height: 400px;
+   padding: 100px;font-size: 20px; display: none}
+   .order3d{margin: 50px 200px;}
+   .order3d div:nth-child(1){border-bottom: 1px solid rgb(228,227,224);padding: 20px 0;}
+   .order3d div span{font-size: 20px;color:  rgb(50 50 50);font-weight:lighter;}
+   .order3d  p{margin: 20px 0}
+   .order3d  div:nth-child(3){font-size: 20px; margin-top: 60px}
+   .order3d  div:nth-child(3) img{position: relative;top: 5px;margin-right: 5px}
+   .order3d table{margin: 20px 0;}
+   .order3d table tr{height: 40px;}
+   .order3d table tr td{padding: 20px 0}
+   .order3d table tr td input{height: 30px;width:450px; }
+ .order3d table tr td:first-child{font-size: 17px;font-weight: bolder}
+ .order3d table select{width: 100px;height: 20px;}
+ .order3d> div:last-child{margin-top: 50px;display: flex;justify-content: space-between}
+
+ .order3d> div:last-child button:first-child{padding: 10px 40px ;
+   height: 40px;font-size: 15px;background-color: transparent;
+ border: 1px solid ;font-weight: bolder;
+}
+ .order3d> div:last-child button:last-child{width: 255px;height: 50px;
+  background-color: #ED342F;border: solid #ED342F;color: aliceblue;
+  font-size: 17px;
+}
+.order3d> div:last-child button:last-child:hover{
+   background-color:transparent;color: #ED342F;cursor: pointer;
+}
+.order3d> div:last-child button:first-child:hover{
+   background-color: black;color: aliceblue;
+   border-color: black;box-shadow: 1px 1px 1px gray;cursor: pointer;
+}
